@@ -8,217 +8,383 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Edel Technologies</title>
+    <title>New Age - Start Bootstrap Theme</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
-  <body id="page-top">
+  <script type="text/javascript">
+    function insertText () {
 
-    
+        document.getElementById('td1').innerHTML = "service providers";
+    }
+  </script>
 
-    <!-- Header -->
-    <header class="masthead d-flex">
-      <div class="container text-center my-auto">
-        <h1 class="mb-1">Edel</h1>
-        <h3 class="mb-5">
-          <em>/ˈed(ə)l/ - Opportunity.</em>
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+  <body id="page-top" onload="insertText();">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">EDEL Technologies</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#atar">Atar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#guides">Guides</a>
+            </li>
+<!--             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Solutions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Refugee Resettlement</a>
+
+                <a class="dropdown-item" href="#">Immigration</a>
+                <a class="dropdown-item" href="#">Local Government</a>
+              </div>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Solutions</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="overlay"></div>
+    </nav>
+
+    <header class="masthead">
+      <br>
+      <br>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-2 my-auto"></div>
+          <div class="col-lg-5 my-auto">
+            <br>
+            <br>
+            <br>
+            <div class="header-content mx-auto">
+              <h3 class="mb-5"><strong>Access to practical information should be a right.</strong></h3>
+              <h4 class="mb-5">Our do-it-yourself guides help<br> <strong><u><span id="td1"></span></u></strong> empower customers and citizens with the information they need, when they need it.</h4>
+              <!-- <img src="img/compass-primary-bg.png" class="img-fluid" alt="" style="width:50px;height:50px;"> -->
+              <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">
+              Free Consultation</a>
+              <!-- <button class="btn btn-outline btn-xl align-right"><i class="fa fa-home"></i>Contact Us</button> -->
+              <br><br>
+
+            </div>
+          </div>
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait black">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt=""> -->
+                    <img src="img/atar.gif" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-auto"></div>
+        </div>
+      </div>
     </header>
 
-    <!-- About -->
-    <section class="content-section bg-light" id="about">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <h2>We help service providers use technology to streamline advocacy operations.</h2>
-            <p class="lead mb-5"> We are a diverse group of folks, from a variety of personal and technical backgrounds, who sahre a common conviction about the role of that 
-              technology must play in restoring rights and dignity into social services.
-              <!-- <a href="https://unsplash.com/">Unsplash</a>! -->
-            </p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <section class="download text-center" id="download" style="background:#B2B2B2;">
       <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What We Offer</h2>
-        </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Strategic Planning</strong>
-            </h4>
-            <!-- <p class="text-faded mb-0">Data strategy</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Technical Training</strong>
-            </h4>
-            <!-- <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Software Devlopment</strong>
-            </h4>
-            <!-- <p class="text-faded mb-0">Millions of users -->
-              <!-- <i class="fas fa-heart"></i> -->
-              <!-- Start Bootstrap!</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Measure Impact</strong>
-            </h4>
-            <!-- <p class="text-faded mb-0">I mustache you a question...</p> -->
+          <div class="col-lg-12" style="color:white;">
+
+             <h5 class="text-left" style="font-size:15px;">OUR VISION</h5><br>
+
+             <h3 class="text-left"><strong>Restore rights and dignity to human services.</strong></h3 >
+             <br>
+             <hr class="hr-yellow">
+
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Callout
-    <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+
+    <section class="cta" id="atar">
+      <div class="cta-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2><strong>Meet Atar.</strong><br>Virtual Guide.<br>
+              <p>Atar, is our first AI-Powered, Virtual City Guide, that walks users step-by-step through their first weeks of moving to a new city.</p>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Powered by Compass&nbsp;&nbsp;<i class="fas fa-play-circle"></i></a> <br>
+          <img src="img/unhcr-logo.png" class="img-fluid" alt="" style="width:175px;height:42px;">
+              <img src="img/compass-primary-bg.png" class="img-fluid" alt="" style="width:50px;height:50px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="features" id="guides">
+      <div class="container">
+<!--         <div class="section-heading text-center">
+          <h2>Your Virtual Guide</h2>
+          <p class="text-muted">Powered by Compass</p>
+          <hr>
+        </div> -->
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait black">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="img/guides.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3 class="text-center"><strong>Your Virtual Guide</strong></h3>
+                  <p class="text-muted text-center">Powered by Compass</p>
+                  <hr><br>
+                  <p class="text-justify">Our Virtual Guides make information about settlement and integration more accessible by breaking down various aspects of being a newcomer (e.g., first steps upon arrival, enrolling your children in school) into tasks that need to be accomplished (e.g., schedule medical exam, submit form X to department Y) as well as the steps and necessary information needed to accomplish these tasks.</p>
+
+                  <p class="text-justfiy"><strong>Every todo list is optimized to the users circumstances and eligbility and includes information on where to go, what to bring, and what to expect. </strong></p>
+                </div>
+<!--                 <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-camera text-primary"></i>
+                    <h3>Flexible Use</h3>
+                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  </div>
+                </div>
+              </div> -->
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-present text-primary"></i>
+                    <h3><strong>Omnichannel</strong></h3>
+                    <p class="text-muted">Guides can be deployed as an AI-powered chatbot via SMS, FB messenger, or embedded in an existing mobile or web application.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-lock-open text-primary"></i>
+                    <h3><strong>Insights, Analytics</strong></h3>
+                    <p class="text-muted">Identify trends, predict bottlenecks, and measure impact of services and programs with customer and citizen journeys.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="" style="background:#f7f7f7">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+
+             <h5 class="text-left" style="font-size:15px;">ABOUT US</h5><br>
+
+             <h3 class="text-left"><strong>Our mission is to help people help themselves through collective and artificial intelligence.</strong></h3 >
+             <br>
+             <hr class="hr-yellow">
+             <br>
+             <p class="text-muted  text-justify">
+              In many ways we stumbled on our work by chance. Little did I know that not long after I moved from Somerville to Montréal to teach and do research I would have four relatives from Eritrea seeking asylum in Canada. <br><br>
+<!--               We want to help them overcome language, cultural, and other barriers that make them feel like they’ve lost control over their own lives. <br><br>
+              We believe that AI can help restore the rights and dignity that people lose when seeking help.<br><br> -->
+              
+ 
+              And it was while volunteering at a local shelter that my relatives were sent to when they first arrived, that we saw first hand how much effort and coordination resettlement requires.<br><br>
+
+              <!-- hen you first arrive, you need to find a lawyer and fill out legal documents within 15 days, schedule a medical exam with a pre authorized physician so you can receive a work permit, and find a permanent place to live before you receive social assistance. <br><br>
+               
+              You can deal with up to 20 different organizations and offices in a language you may not even speak. And if you miss a deadline or make an error on application your claim can be rejected or  delayed indefinitely. -->
+</p>
+
+
+<hr>
+<br>
+              <!-- <p class="text-muted  text-justify">
+              My family’s refugee experience is not unique.<br><br>
+ 
+              According to the UNHCR, the United Nations Refugee Agency, every minute 20 people are newly displaced by climate change, economic crisis, or social and political instability.<br><br>
+
+              The challenge is that social services can’t quickly scale. Even if communities do their best to help more people with limited resources, newcomers spend more time waiting in limbo, not knowing where they can turn to for help. <br><br>
+ 
+              In Montreal, for example, despite millions of dollars being spent to support resettlement efforts about 50% of newcomers are still unaware that free resources exist to help them with everything, from filling out paperwork to finding a job.<br><br>
+
+
+             </p>
+
+          <hr>
+          <br><br> -->
+          <p class="text-muted  text-justify">
+            We started Edel Technologies to support social service providers and help them leverage, data, analytics, apps, and artificial intelligence to improve their service delivery capacity and effectiveness. <br><br>
+            But what’s most important to us, is that our solutions restore the dignity that many loose waiting for help by giving them the information and resources they need to help themselves.<br><br><br>
+            <div class="text-right">Muhammed Y. Idris</div>
+           
+          </p>
+           <!-- Muhammed Y. Idris -->
+          </div>
+          <div class="col-lg-1"></div>
+
+          <div class="col-lg-3 text-center">
+            <br><br><br><br><br><br><br><br>
+            <!-- <br><br><br><br><br><br><br><br><br><br> -->
+            <h2 class="text-muted">Resttlement and Integration is one of the greatest challenges of our time.</h2><br><br>
+                      <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Contact Us</a> <br>
+
+</div>
+        </div>
+      </div>
+    </section>
+
+   <!-- <section class="" id="atar" style="background:#f7f7f7">
+      <div class="cta-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h2><strong>Meet Atar.</strong><br>Virtual Guide.<br>Virtual Advocate.</h2><br>
+              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Watch Video</a><br><br>
+              <img src="img/unhcr-logo.png" class="img-fluid" alt="" style="width:175px;height:42px;">
+              <img src="img/compass-primary-bg.png" class="img-fluid" alt="" style="width:50px;height:50px;">
+
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted text-justify">Atar, is our first AI-Powered, Virtual City Guide, that walks users step-by-step through their first weeks of moving to a new city.</p>
+
+              <p class="text-justify">After asking you some basic questions to understand your unique circumstances and determine your eligibility for local programs and resources (i.e., Are you a international student or temporary worker?), Atar will generate a custom to to list giving you step by step instructions on where to go, what to bring, and what to expect to accomplish whatever you need.</p>
+
+              <p><strong>Atar is multilingual and in our work we have completed campaigns in English, French, Spanish, Arabic, and Creole.</strong></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section> -->
+
+    <section class="" id="unhcr" style="background:#0072BC">
+      <div class="container text-center" style="color:white">
+        <h5>We are proudly supported by</h5>
+        <hr>
+        <h5><strong>The United Nations High Comission for Refugees (UNHCR)</strong></h5>
+        <br>
+        <div class="row">
+          <div class="col-lg-1"></div>
+            <!-- <img src="img/unhcrunhcrunh.gif" class="img-fluid" alt=""> -->
+          <!-- </div> -->
+          <div class="col-lg-10">
+            <p class="text-justify">“It is fantastic to see asylum-seekers and refugees working at COMPASS who have had a first-hand experience on how difficult it is to find their way in a new country developing an application to help those coming after them...The UN Refugee Agency is proud to be associated with their project.”</p>
+            <p class="text-right" style="color:#F5EB38">Jean-Nicolas Beuze, UNHCR Representative in Canada</p>
+
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        
+
+      </div>
+
+    </section>
+
+<!--     <section class="" id="atar" style="background:#f7f7f7">
+      <div class="cta-content">
+        <div class="container">
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+ -->
+
+
+    <!-- <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>We
+          <i class="fas fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </section> -->
 
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <footer>
       <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://youtu.be/KHxZ44WsTqE">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Compass</h2>
-                  <p class="mb-0">"Don't give me more info, just tell me what to do"</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://atar.bitrix24.site/">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Atar</h2>
-                  <p class="mb-0">Atar is the first ever AI-Powered, Virtual Advocate.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <!-- <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">We would love to work with you!</h2>
-        <a class="typeform-share bg-dark" href="https://midris8321.typeform.com/to/rBPK2t" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contact Form </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-        <!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a> -->
-        <!-- <a href="#" class="btn btn-xl btn-dark">Look at Me!</a> -->
-      </div>
-    </section>
-
-    <!-- Map -->
-    <section id="contact" class=  "map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.594040902338!2d-74.00916308428718!3d40.726952444636986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598d2bfd4841%3A0x33f6230333cdc6ff!2sTED+Conferences!5e0!3m2!1sen!2sus!4v1539661277008" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <!-- <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe> -->
-      <br/>
-      <small>
-        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.594040902338!2d-74.00916308428718!3d40.726952444636986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598d2bfd4841%3A0x33f6230333cdc6ff!2sTED+Conferences!5e0!3m2!1sen!2sus!4v1539661277008"></a>
-      </small>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <!-- <ul class="list-inline mb-5">
+        <p>&copy; EDEL Technologies 2019. All Rights Reserved.</p>
+<!--         <ul class="list-inline">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
-            </a>
+            <a href="#">Privacy</a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
+            <a href="#">Terms</a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
-            </a>
+            <a href="#">FAQ</a>
           </li>
         </ul> -->
-        <p class="text-muted small mb-0">Copyright &copy; 2018</p>
       </div>
     </footer>
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -228,7 +394,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/new-age.min.js"></script>
 
   </body>
 
